@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="Tin_Tức_Sự_Kiện.MasTer.Home" %>
+
+<html>
+<head runat="server">
+    <title> Trang Tin Tức </title>
+    <link href="../App_Themes/LAVIEPC/StyleSheet1.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="TinTuc" runat="server">
+        <div id="menutop">
+            <div id="menu">
+                <ul>
+                    
+                                        
+                    <li > <a href ="TinTuc.aspx"> Tin Tức</a> </li>
+                    <li > <a href ="TacGia.aspx"> Tác Giả</a> </li>
+                    <li > <a href ="ChuDe.aspx"> Chủ Đề</a> </li>
+                   
+
+                </ul>
+                </div>
+  </div>
+        <div id="maincontent">
+            
+        <div>
+       
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+            </div>
+       
+        <div id="footer">
+            <div id="ndfooter">
+                XÂY DỰNG WEBSITE THƯƠNG MẠI <br/>
+                    NGÀY KẾT THÚC:28/12/2020 . 
+            </div>
+        </div>
+    </form>
+</body>
+</html>

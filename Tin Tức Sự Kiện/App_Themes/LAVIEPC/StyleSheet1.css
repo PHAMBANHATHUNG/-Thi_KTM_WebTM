@@ -1,0 +1,122 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    font-size: 80%;
+    background-color: #b6ff00;
+    color: brown;
+    height: 284px;
+    width: 1283px;
+}
+
+#menutop {
+    height: 30px;
+    background: #000000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#menu {
+    background-image: url('../../Images/ZpqUqW9X_400x400.jpg');
+    margin: 0 auto;
+    padding: 0;
+    height: 29px;
+}
+
+    #menu ul {
+        list-style: none;
+        margin: 0;
+        padding-top: 7px;
+        padding-left: 0;
+        height: 22px;
+        width: 1192px;
+    }
+
+        #menu ul li {
+            float: left;
+            margin: 0;
+        }
+
+            #menu ul li a {
+                padding-right: 20px;
+                color: wheat;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+                #menu ul li a:hover {
+                    color: #fff000;
+                    text-decoration: underline;
+                }
+
+#maincontent {
+    width: 1000px;
+    margin: 30px auto;
+}
+
+#rightcontent {
+    float: right;
+    width: 330px;
+    background: #fff;
+    border: 2px solid #ff0000;
+    box-shadow: 5px 5px 5px #ff6a00;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#content {
+    float: left;
+    width: 329px;
+    background: #fff;
+    box-shadow: 5px 5px 5px #ff6a00;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    height: 13px;
+}
+
+#ndright {
+    padding: 10px 15px;
+    text-align: justify;
+}
+
+#ndcontent {
+    padding: 10px 15px;
+    text-align: justify;
+}
+
+#content h1 {
+    margin: 0;
+    padding: 5px 10px;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    background: #000;
+    color: #ff0000;
+}
+
+#rightcontent h1 {
+    margin: 0;
+    padding: 5px 10px;
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    background: #000;
+    color: #ff0000;
+}
+
+#footer {
+    clear: both;
+    background: #000;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#ndfooter {
+    color: aqua;
+    padding: 15px;
+    height: 71px;
+    width: 981px;
+}
